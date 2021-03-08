@@ -15,7 +15,7 @@ import yagmail
 
 
 
-ascii_banner = pyfiglet.figlet_format("dxoma  '") 
+ascii_banner = pyfiglet.figlet_format("dxoma") 
 print(ascii_banner) 
 
 def scanning():
