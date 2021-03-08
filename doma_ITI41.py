@@ -320,7 +320,7 @@ def Sniffing_and_Alert():
 
 
 def prompt():
-	print ('''Select an option:\n 1) Port Scanning and NMAP\n 2) Listening to unkown ports and Email if someone try to connect & BLOCK\n 3) Sniffig forign traffic and Alert''')
+	print ('''Select an option:\n 1) Port Scanning and NMAP\n 2) Listening to unkown ports and send Email if someone try to connect & BLOCK\n 3) Sniffing forign traffic and Alert''')
 	choice = (input("").strip())
 	if choice == '1':
 		scanning()
